@@ -1,0 +1,18 @@
+[package]
+name = "CertChain"
+version = "1.0.0"
+
+[addresses]
+# Main address (the one you generated)
+AuthentiChain = "0x0d1b41c5093567f294abd60eef117e68158f33ccad68d6ce5a347f3f5a2d004e"
+
+[dev-addresses]
+# Dev address (same as the main address for Devnet)
+AuthentiChain = "0x0d1b41c5093567f294abd60eef117e68158f33ccad68d6ce5a347f3f5a2d004e"
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "devnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
