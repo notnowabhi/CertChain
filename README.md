@@ -36,6 +36,15 @@ CertChain is a decentralized platform built to issue and verify certificates on 
 3. Commit and push your changes.
 4. Submit a pull request for review.
 
+## Contract Details
+
+The smart contracts for CertChain are deployed at the following address:
+
+- **Contract Address:** 0x0d1b41c5093567f294abd60eef117e68158f33ccad68d6ce5a347f3f5a2d004e
+
+You can find this address in the `Move.toml` file under the relevant section.
+
+
 ## License
 
 This project is open-source and available under the MIT License.
